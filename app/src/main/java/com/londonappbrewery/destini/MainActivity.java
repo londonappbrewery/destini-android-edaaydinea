@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         // TODO: Steps 6, 7, & 9 - Set a listener on the top button:
         mTopButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v) { 
                 if(mStoryIndex == 1 || mStoryIndex == 2) {
                     mStoryTextView.setText(R.string.T3_Story);
                     mTopButton.setText(R.string.T3_Ans1);
